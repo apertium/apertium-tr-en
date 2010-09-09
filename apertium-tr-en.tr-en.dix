@@ -15,6 +15,7 @@
     <!-- Conjunctions -->
 
 	<e><p><l>ve<s n="cnj"/></l><r>and<s n="cnjcoo"/></r></p></e>
+	<e><p><l>veya<s n="cnj"/></l><r>or<s n="cnjcoo"/></r></p></e>
 
     <!-- Nouns -->
 

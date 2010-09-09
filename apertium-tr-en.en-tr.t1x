@@ -92,14 +92,72 @@
             </let>
            </when>
          </choose>
-	 <out>
-	  <lu>
-	   <clip pos="2" side="tl" part="lem"/>
-	   <clip pos="2" side="tl" part="a_nom"/>
-	   <clip pos="2" side="tl" part="nbr"/>
-           <var n="poss"/>
-	  </lu>
+	  <choose>
+	 <when>
+	 <test>
+	 <equal caseless="yes">
+	 <clip pos="1" side="sl" part="lem"/>
+	 <lit v="your"/>
+	</equal>
+	</test>
+	<let>
+	<var n="poss"/>
+	<lit-tag v="p2p"/>
+	</let>
+	</when>
+	</choose>
+	<choose>
+	<when>
+	<test>
+	<equal caseless="yes">
+	<clip pos="1" side="sl" part="lem"/>
+	<lit v="our"/>
+	</equal>
+	</test>
+	<let>
+	<var n="poss"/>
+	<lit-tag v="p1p"/>
+	</let>
+	</when>
+	</choose>
+	<choose>
+	<when>
+	<test>
+	<equal caseless="yes">
+	<clip pos="1" side="sl" part="lem"/>
+	<lit v="their"/>
+	</equal>
+	</test>
+	<let>
+	<var n="poss"/>
+	<lit-tag v="p3p"/>
+	</let>
+	</when>
+	</choose>
+	<choose>
+	<otherwise>
+	<equal caseless="yes">
+	</equal>
+	<let>
+	<var n="poss"/>
+	<lit-tag v="p3s"/>
+	</let>
+	</otherwise>
+	</choose>
+
+
+	
+
+	<out>
+	 <lu>
+ 	  <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_nom"/>
+	  <clip pos="2" side="tl" part="nbr"/>
+	  <var n="poss"/>
+	</lu>
 	</out>
+
+
 	</action>
 </rule>
 

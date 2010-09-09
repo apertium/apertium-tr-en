@@ -37,10 +37,18 @@
  <!-- Conjunctions -->
 
 		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
+		<e lm="or"><i>or</i><par n="and__cnjcoo"/></e>
 
  <!-- Determiners -->
 
 		<e lm="my"><i>my</i><par n="their__det"/></e>
+		<e lm="your"><i>your</i><par n="their__det"/></e>
+		<e lm="his"><i>his</i><par n="their__det"/></e>
+		<e lm="her"><i>her</i><par n="their__det"/></e>
+		<e lm="its"><i>its</i><par n="their__det"/></e>
+		<e lm="our"><i>our</i><par n="their__det"/></e>
+		<e lm="their"><i>their</i><par n="their__det"/></e>
+	  
 
  <!-- Nouns -->
 		
