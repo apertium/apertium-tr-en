@@ -10,19 +10,13 @@
 	</sdefs>
 	<pardefs>
 		<pardef n="house__n">
-			<e>
-			  <p>
-			     <l/>
-			     <r><s n="n"/><s n="sg"/></r>
-			  </p>
-			</e>
-			<e>
-			  <p>
-			     <l>s</l>
-			     <r><s n="n"/><s n="pl"/></r>
-			   </p>
-			</e>
-		</pardef>			
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
+		<pardef n="m/an__n">
+			<e><p><l>an</l><r>an<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>en</l><r>an<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
 		
 	</pardefs>
 
@@ -38,8 +32,21 @@
 		<e lm="food"><i>food</i><par n="house__n"/></e>		
 		<e lm="house"><i>house</i><par n="house__n"/></e>
 		<e lm="key"><i>key</i><par n="house__n"/></e>
+		<e lm="man"><i>m</i><par n="m/an__n"/></e>
 		<e lm="pen"><i>pen</i><par n="house__n"/></e>
 		<e lm="soup"><i>soup</i><par n="house__n"/></e>
+		<e lm="woman"><i>wom</i><par n="m/an__n"/></e>
+		<e lm="table"><i>table</i><par n="house__n"/></e>
+		<e lm="guitar"><i>guitar</i><par n="house__n"/></e>
+		<e lm="school"><i>school</i><par n="house__n"/></e>
+		<e lm="hospital"><i>hospital</i><par n="house__n"/></e>
+		<e lm="restaurant"><i>restaurant</i><par n="house__n"/></e>
+		<e lm="cat"><i>cat</i><par n="house__n"/></e>
+		<e lm="market"><i>market</i><par n="house__n"/></e>
+		<e lm="dog"><i>dog</i><par n="house__n"/></e>
+		<e lm="sea"><i>sea</i><par n="house__n"/></e>
+		<e lm="river"><i>river</i><par n="house__n"/></e>
+
 		
 
 
