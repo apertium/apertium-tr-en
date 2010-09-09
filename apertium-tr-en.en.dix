@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 
-	<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwqxyz</alphabet>
+	<alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvqxyz</alphabet>
 
 	<sdefs>
 	<sdef n="n"/>
 	<sdef n="sg"/>
 	<sdef n="pl"/>
-	<sdef n="cnjcoo"/>
 	</sdefs>
 	<pardefs>
-                <pardef n="and__cnjcoo">
-			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
-                </pardef>
 		<pardef n="house__n">
 			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
@@ -26,10 +22,6 @@
 
 	<section id="main" type="standard">
 
- <!-- Conjunctions -->
-
-		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
-
  <!-- Nouns -->
 		
 		<e lm="ball"><i>ball</i><par n="house__n"/></e>
@@ -40,10 +32,10 @@
 		<e lm="food"><i>food</i><par n="house__n"/></e>		
 		<e lm="house"><i>house</i><par n="house__n"/></e>
 		<e lm="key"><i>key</i><par n="house__n"/></e>
-		<e lm="man"><i>m</i><par n="m/an__n"/></e>
+		<e lm="man"><i>man</i><par n="m/an__n"/></e>
 		<e lm="pen"><i>pen</i><par n="house__n"/></e>
 		<e lm="soup"><i>soup</i><par n="house__n"/></e>
-		<e lm="woman"><i>wom</i><par n="m/an__n"/></e>
+		<e lm="woman"><i>woman</i><par n="m/an__n"/></e>
 		<e lm="table"><i>table</i><par n="house__n"/></e>
 		<e lm="guitar"><i>guitar</i><par n="house__n"/></e>
 		<e lm="school"><i>school</i><par n="house__n"/></e>
@@ -54,6 +46,7 @@
 		<e lm="dog"><i>dog</i><par n="house__n"/></e>
 		<e lm="sea"><i>sea</i><par n="house__n"/></e>
 		<e lm="river"><i>river</i><par n="house__n"/></e>
+		
 
 		
 
