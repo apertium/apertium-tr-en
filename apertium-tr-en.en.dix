@@ -29,6 +29,10 @@
 			<e><p><l>en</l><r>an<s n="n"/><s n="pl"/></r></p></e>
 		</pardef>	
 		
+		<pardef n="democracy__n">
+			<e><p><l>y</l><r>y<s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ies</l><r>y<s n="n"/><s n="pl"/></r></p></e>
+		</pardef>
 	</pardefs>
 
 	<section id="main" type="standard">
@@ -74,7 +78,8 @@
 		<e lm="dog"><i>dog</i><par n="house__n"/></e>
 		<e lm="sea"><i>sea</i><par n="house__n"/></e>
 		<e lm="river"><i>river</i><par n="house__n"/></e>
-		
+		<e lm="car"><i>car</i><par n="house__n"/></e>
+		<e lm="democracy"><i>democrac</i><par n="democracy__n"/></e>
 
 		
 
