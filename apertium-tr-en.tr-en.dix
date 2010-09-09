@@ -1,9 +1,20 @@
 <dictionary>
   <alphabet/>
   <sdefs>
+    <!-- Common -->
     <sdef n="n"       c="Noun"/>
+
+    <!-- Apertium -->
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <!-- trmorph -->
+    <sdef n="cnj"     c="Conjunction"/>
+
   </sdefs>
   <section id="main" type="standard">
+    <!-- Conjunctions -->
+
+	<e><p><l>ve<s n="cnj"/></l><r>and<s n="cnjcoo"/></r></p></e>
 
     <!-- Nouns -->
 

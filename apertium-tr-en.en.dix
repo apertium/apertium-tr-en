@@ -7,8 +7,12 @@
 	<sdef n="n"/>
 	<sdef n="sg"/>
 	<sdef n="pl"/>
+	<sdef n="cnjcoo"/>
 	</sdefs>
 	<pardefs>
+                <pardef n="and__cnjcoo">
+			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+                </pardef>
 		<pardef n="house__n">
 			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
@@ -21,6 +25,10 @@
 	</pardefs>
 
 	<section id="main" type="standard">
+
+ <!-- Conjunctions -->
+
+		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
 
  <!-- Nouns -->
 		
