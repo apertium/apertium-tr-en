@@ -1,0 +1,15 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+  </sdefs>
+  <section id="main" type="standard">
+
+    <!-- Nouns -->
+
+    <e><p><l>ev<s n="n"/></l><r>house<s n="n"/></r></p></e>
+    <e c="  0"><p><l>adam<s n="n"/></l><r>man<s n="n"/></r></p></e>
+    <e srl="1"><p><l>erkek<s n="n"/></l><r>man<s n="n"/></r></p></e>
+
+  </section>
+</dictionary>
