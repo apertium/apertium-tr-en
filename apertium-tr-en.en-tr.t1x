@@ -30,6 +30,20 @@
 	  <pattern-item n="nom"/>
 	</pattern>
 	<action>
+         <choose>
+           <when>
+            <test>
+             <equal>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+             </equal>
+            </test>
+            <let>
+             <clip pos="1" side="tl" part="nbr"/>
+             <lit v=""/>
+            </let>
+           </when>
+         </choose>
 	 <out>
 	  <lu>
 	   <clip pos="1" side="tl" part="lem"/>
