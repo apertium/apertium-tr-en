@@ -28,7 +28,20 @@
 
 	<section id="main" type="standard">
 
+ <!-- Nouns -->
+		
+		<e lm="ball"><i>ball</i><par n="house__n"/></e>
+		<e lm="book"><i>book</i><par n="house__n"/></e>
+		<e lm="bottle"><i>bottle</i><par n="house__n"/></e>
+		<e lm="cupboard"><i>cupboard</i><par n="house__n"/></e>
+		<e lm="door"><i>door</i><par n="house__n"/></e>	
+		<e lm="food"><i>food</i><par n="house__n"/></e>		
 		<e lm="house"><i>house</i><par n="house__n"/></e>
+		<e lm="key"><i>key</i><par n="house__n"/></e>
+		<e lm="pen"><i>pen</i><par n="house__n"/></e>
+		<e lm="soup"><i>soup</i><par n="house__n"/></e>
+		
+
 
 	</section>
 

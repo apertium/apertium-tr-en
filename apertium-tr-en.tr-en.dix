@@ -7,9 +7,34 @@
 
     <!-- Nouns -->
 
-    <e><p><l>ev<s n="n"/></l><r>house<s n="n"/></r></p></e>
-    <e c="  0"><p><l>adam<s n="n"/></l><r>man<s n="n"/></r></p></e>
-    <e srl="1"><p><l>erkek<s n="n"/></l><r>man<s n="n"/></r></p></e>
+	<e><p><l>ev<s n="n"/></l><r>house<s n="n"/></r></p></e>
+	<e c="  0"><p><l>adam<s n="n"/></l><r>man<s n="n"/></r></p></e>
+	<e srl="1"><p><l>erkek<s n="n"/></l><r>man<s n="n"/></r></p></e>
+	<e><p><l>top<s n="n"/></l><r>ball<s n="n"/></r></p></e>
+	<e><p><l>kitap<s n="n"/></l><r>book<s n="n"/></r></p></e>
+	<e><p><l>şişe<s n="n"/></l><r>bottle<s n="n"/></r></p></e>
+	<e><p><l>dolap<s n="n"/></l><r>cupboard<s n="n"/></r></p></e>
+	<e><p><l>kapı<s n="n"/></l><r>door<s n="n"/></r></p></e>    
+	<e><p><l>yemek<s n="n"/></l><r>food<s n="n"/></r></p></e>
+	<e><p><l>anahtar<s n="n"/></l><r>key<s n="n"/></r></p></e>
+	<e><p><l>kalem<s n="n"/></l><r>pen<s n="n"/></r></p></e>
+	<e><p><l>çorba<s n="n"/></l><r>soup<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kadın<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+	<e srl="1"><p><l>bayan<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+	<e><p><l>masa<s n="n"/></l><r>table<s n="n"/></r></p></e>
+	<e><p><l>gitar<s n="n"/></l><r>guitar<s n="n"/></r></p></e>
+	<e><p><l>okul<s n="n"/></l><r>school<s n="n"/></r></p></e>
+	<e><p><l>hastane<s n="n"/></l><r>hospital<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restoran<s n="n"/></l><r>restaurant<s n="n"/></r></p></e>
+	<e srl="1"><p><l>lokanta<s n="n"/></l><r>restaurant<s n="n"/></r></p></e>
+	<e><p><l>kedi<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+	<e><p><l>köpek<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+	<e><p><l>pazar<s n="n"/></l><r>market<s n="n"/></r></p></e>
+	<e><p><l>deniz<s n="n"/></l><r>sea<s n="n"/></r></p></e>
+	<e><p><l>nehir<s n="n"/></l><r>river<s n="n"/></r></p></e>
+	
 
+
+    
   </section>
 </dictionary>
