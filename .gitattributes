@@ -2,3 +2,4 @@
 /Makefile -text
 /apertium-tr-en.en.dix -text
 /en-tr.autogen.hfst -text
+/en-tr.prob -text svneol=unset#unset
