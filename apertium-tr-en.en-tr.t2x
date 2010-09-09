@@ -3,11 +3,15 @@
 
 <section-def-cats>
 
+<def-cat n="def">
+	<cat-item tags="det.def.*"/>
+</def-cat>
 <def-cat n="prep">
 	<cat-item tags="pr"/>
 	<cat-item tags="pr.*"/>
 </def-cat>
 <def-cat n="nom">
+	<cat-item tags="n"/>
 	<cat-item tags="n.*"/>
 </def-cat>
 
@@ -59,6 +63,50 @@
             </let>
            </when>
          </choose>
+	 <choose>
+	 <when>
+	  <test>
+	   <ends-with caseless="yes"> 
+	   <clip pos="1" side="sl" part="lem"/>
+	   <lit v="on"/>
+	    </ends-with>
+	    </test>
+	    <let>
+	     <var n="c_case"/>
+	     <lit-tag v="loc"/>
+	     </let>
+	   </when>
+	 </choose>
+         <choose>
+	 <when>
+	  <test>
+	   <ends-with caseless="yes"> 
+	   <clip pos="1" side="sl" part="lem"/>
+	   <lit v="at"/>
+	    </ends-with>
+	    </test>
+	    <let>
+	     <var n="c_case"/>
+	     <lit-tag v="loc"/>
+	     </let>
+	   </when>
+	 </choose>
+ 	<choose>
+	 <when>
+	  <test>
+	   <ends-with caseless="yes"> 
+	   <clip pos="1" side="sl" part="lem"/>
+	   <lit v="in"/>
+	    </ends-with>
+	    </test>
+	    <let>
+	     <var n="c_case"/>
+	     <lit-tag v="loc"/>
+	     </let>
+	   </when>
+	 </choose>
+	   
+	
 	 <out>
 	  <lu>
 	   <clip pos="2" side="tl" part="lem"/>
@@ -70,6 +118,8 @@
 	</out>
 	</action>
 </rule>
+
+
 
 </section-rules>
 

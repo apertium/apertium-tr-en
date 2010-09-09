@@ -12,9 +12,14 @@
 	<sdef n="sg"/>
 	<sdef n="pl"/>
 	<sdef n="sp"/>
+	<sdef n="def"/>
 	</sdefs>
 	<pardefs>
 
+		
+		<pardef n="the__det">
+			<e><p><l/><r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+		</pardef>
 		<pardef n="their__det">
 			<e><p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
 		</pardef>	
@@ -50,6 +55,10 @@
  <!-- Prepositions -->
 
 		<e lm="from"><i>from</i><par n="from__pr"/></e>
+		<e lm="on"><i>on</i><par n="from__pr"/></e>
+		<e lm="at"><i>at</i><par n="from__pr"/></e>
+		<e lm="in"><i>in</i><par n="from__pr"/></e>
+		
 
  <!-- Determiners -->
 
@@ -60,6 +69,7 @@
 		<e lm="its"><i>its</i><par n="their__det"/></e>
 		<e lm="our"><i>our</i><par n="their__det"/></e>
 		<e lm="their"><i>their</i><par n="their__det"/></e>
+		<e lm="the"><i>the</i><par n="the__det"/></e>
 	  
 
  <!-- Nouns -->
@@ -88,6 +98,8 @@
 		<e lm="river"><i>river</i><par n="house__n"/></e>
 		<e lm="car"><i>car</i><par n="house__n"/></e>
 		<e lm="democracy"><i>democrac</i><par n="democracy__n"/></e>
+		<e lm="day"><i>day</i><par n="house__n"/></e>
+		<e lm="work"><i>work</i><par n="house__n"/></e>
 
 		
 
