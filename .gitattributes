@@ -5,4 +5,5 @@
 /apertium-tr-en.tr-en.dix -text
 /en-tr.autogen.hfst -text
 /en-tr.prob -text svneol=unset#unset
+/lexchoicebil.xsl -text
 /modes.xml -text
