@@ -55,6 +55,7 @@
  <!-- Prepositions -->
 
 		<e lm="from"><i>from</i><par n="from__pr"/></e>
+		<e lm="to"><i>to</i><par n="from__pr"/></e>
 		<e lm="on"><i>on</i><par n="from__pr"/></e>
 		<e lm="at"><i>at</i><par n="from__pr"/></e>
 		<e lm="in"><i>in</i><par n="from__pr"/></e>
