@@ -1,8 +1,8 @@
 * text=auto !eol
 /Makefile -text
+/apertium-tr-en.en-tr.t1x -text
 /apertium-tr-en.en.dix -text
 /apertium-tr-en.tr-en.dix -text
-/apertium-tr-en.tr-en.tlx -text
 /en-tr.autogen.hfst -text
 /en-tr.prob -text svneol=unset#unset
 /modes.xml -text
