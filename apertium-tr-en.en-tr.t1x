@@ -3,6 +3,9 @@
 
 <section-def-cats>
 
+<def-cat n="poss">
+	<cat-item tags="det.pos.*"/>
+</def-cat>
 <def-cat n="nom">
 	<cat-item tags="n.*"/>
 </def-cat>
@@ -22,10 +25,11 @@
 
 <section-def-vars>
 <def-var n="number"/>
+<def-var n="c_poss"/> <!-- current possessor -->
 </section-def-vars>
 
 <section-rules>
-<rule>
+<rule comment="nom">
 	<pattern>
 	  <pattern-item n="nom"/>
 	</pattern>
@@ -49,6 +53,51 @@
 	   <clip pos="1" side="tl" part="lem"/>
 	   <clip pos="1" side="tl" part="a_nom"/>
 	   <clip pos="1" side="tl" part="nbr"/>
+	  </lu>
+	</out>
+	</action>
+</rule>
+
+<rule comment="poss nom">
+	<pattern>
+	  <pattern-item n="poss"/>
+	  <pattern-item n="nom"/>
+	</pattern>
+	<action>
+         <choose>
+           <when>
+            <test>
+             <equal>
+              <clip pos="2" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+             </equal>
+            </test>
+            <let>
+             <clip pos="2" side="tl" part="nbr"/>
+             <lit v=""/>
+            </let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+            <test>
+             <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="my"/>
+             </equal>
+            </test>
+            <let>
+             <var n="poss"/>
+             <lit-tag v="p1s"/>
+            </let>
+           </when>
+         </choose>
+	 <out>
+	  <lu>
+	   <clip pos="2" side="tl" part="lem"/>
+	   <clip pos="2" side="tl" part="a_nom"/>
+	   <clip pos="2" side="tl" part="nbr"/>
+           <var n="poss"/>
 	  </lu>
 	</out>
 	</action>

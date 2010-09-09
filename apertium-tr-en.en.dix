@@ -6,11 +6,17 @@
 	<sdefs>
 	<sdef n="n"/>
 	<sdef n="cnjcoo"/>
+	<sdef n="det"/>
+	<sdef n="pos"/>
 	<sdef n="sg"/>
 	<sdef n="pl"/>
+	<sdef n="sp"/>
 	</sdefs>
 	<pardefs>
 
+		<pardef n="their__det">
+			<e><p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+		</pardef>	
 		<pardef n="and__cnjcoo">
 			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
 		</pardef>	
@@ -32,6 +38,9 @@
 
 		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
 
+ <!-- Determiners -->
+
+		<e lm="my"><i>my</i><par n="their__det"/></e>
 
  <!-- Nouns -->
 		
