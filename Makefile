@@ -6,5 +6,6 @@ all:
 	lt-comp rl .deps/apertium-tr-en.tr-en.dix en-tr.autobil.bin
 
 	apertium-preprocess-transfer apertium-tr-en.en-tr.t1x en-tr.t1x.bin
+	apertium-preprocess-transfer apertium-tr-en.en-tr.t2x en-tr.t2x.bin
 
 	apertium-gen-modes modes.xml

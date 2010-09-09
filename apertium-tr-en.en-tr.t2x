@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer>
+
+<section-def-cats>
+
+<def-cat n="prep">
+	<cat-item tags="pr"/>
+	<cat-item tags="pr.*"/>
+</def-cat>
+<def-cat n="nom">
+	<cat-item tags="n.*"/>
+</def-cat>
+
+</section-def-cats>
+
+
+<section-def-attrs>
+<def-attr n="nbr">
+	<attr-item tags="sg"/>
+	<attr-item tags="pl"/>
+</def-attr>
+<def-attr n="poss">
+	<attr-item tags="p1s"/>
+	<attr-item tags="p2s"/>
+	<attr-item tags="p3s"/>
+	<attr-item tagp="p1p"/>
+	<attr-item tagp="p2p"/>
+	<attr-item tagp="p3p"/>
+</def-attr>
+<def-attr n="a_nom">
+	<attr-item tags="n"/>
+</def-attr>
+</section-def-attrs>
+
+<section-def-vars>
+<def-var n="number"/>
+<def-var n="c_poss"/> <!-- current possessor -->
+<def-var n="c_case"/> <!-- current possessor -->
+</section-def-vars>
+
+<section-rules>
+<rule comment="nom">
+	<pattern>
+	  <pattern-item n="prep"/>
+	  <pattern-item n="nom"/>
+	</pattern>
+	<action>
+         <choose>
+           <when>
+            <test>
+             <ends-with caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="from"/>
+             </ends-with>
+            </test>
+            <let>
+             <var n="c_case"/>
+             <lit-tag v="abl"/>
+            </let>
+           </when>
+         </choose>
+	 <out>
+	  <lu>
+	   <clip pos="2" side="tl" part="lem"/>
+	   <clip pos="2" side="tl" part="a_nom"/>
+	   <clip pos="2" side="tl" part="nbr"/>
+	   <clip pos="2" side="tl" part="poss"/>
+           <var n="c_case"/>
+	  </lu>
+	</out>
+	</action>
+</rule>
+
+</section-rules>
+
+
+</transfer>
+
+
+
+

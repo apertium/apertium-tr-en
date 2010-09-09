@@ -1,6 +1,7 @@
 * text=auto !eol
 /Makefile -text
 /apertium-tr-en.en-tr.t1x -text
+/apertium-tr-en.en-tr.t2x -text
 /apertium-tr-en.en.dix -text
 /apertium-tr-en.tr-en.dix -text
 /en-tr.autogen.hfst -text

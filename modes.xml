@@ -37,6 +37,27 @@
       </program>
     </pipeline>
   </mode>
+  <mode name="en-tr-transfer2">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-tr.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="en-tr.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tr-en.en-tr.t1x"/>
+        <file name="en-tr.t1x.bin"/>
+        <file name="en-tr.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tr-en.en-tr.t2x"/>
+        <file name="en-tr.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="en-tr">
     <pipeline>
@@ -51,6 +72,10 @@
         <file name="apertium-tr-en.en-tr.t1x"/>
         <file name="en-tr.t1x.bin"/>
         <file name="en-tr.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tr-en.en-tr.t2x"/>
+        <file name="en-tr.t2x.bin"/>
       </program>
       <program name="hfst-proc -g">
         <file name="en-tr.autogen.hfst"/>

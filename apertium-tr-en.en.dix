@@ -7,6 +7,7 @@
 	<sdef n="n"/>
 	<sdef n="cnjcoo"/>
 	<sdef n="det"/>
+	<sdef n="pr"/>
 	<sdef n="pos"/>
 	<sdef n="sg"/>
 	<sdef n="pl"/>
@@ -16,6 +17,9 @@
 
 		<pardef n="their__det">
 			<e><p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+		</pardef>	
+		<pardef n="from__pr">
+			<e><p><l/><r><s n="pr"/></r></p></e>
 		</pardef>	
 		<pardef n="and__cnjcoo">
 			<e><p><l/><r><s n="cnjcoo"/></r></p></e>
@@ -42,6 +46,10 @@
 
 		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
 		<e lm="or"><i>or</i><par n="and__cnjcoo"/></e>
+
+ <!-- Prepositions -->
+
+		<e lm="from"><i>from</i><par n="from__pr"/></e>
 
  <!-- Determiners -->
 
