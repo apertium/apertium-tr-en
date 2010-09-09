@@ -69,6 +69,18 @@
               <lit-tag v="dat"/>
             </let>
           </when>
+	  <when>
+            <test>
+              <ends-with caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="with"/>
+              </ends-with>
+            </test>
+            <let>
+              <var n="c_case"/>
+              <lit-tag v="ins"/>
+            </let>
+          </when>
           <when>
             <test>
               <or>
@@ -92,6 +104,7 @@
             </let>
           </when>
         </choose>
+
         <out>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
