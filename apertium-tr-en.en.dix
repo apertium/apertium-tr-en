@@ -33,6 +33,10 @@
 			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
 		</pardef>	
+		<pardef n="child__n">
+			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+			<e><p><l>ren</l><r><s n="n"/><s n="pl"/></r></p></e>
+		</pardef>	
 		<pardef n="m/an__n">
 			<e><p><l>an</l><r>an<s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>en</l><r>an<s n="n"/><s n="pl"/></r></p></e>
@@ -102,7 +106,24 @@
 		<e lm="car"><i>car</i><par n="house__n"/></e>
 		<e lm="democracy"><i>democrac</i><par n="democracy__n"/></e>
 		<e lm="day"><i>day</i><par n="house__n"/></e>
+		<e lm="world"><i>world</i><par n="house__n"/></e>
+		<e lm="year"><i>year</i><par n="house__n"/></e>
+		<e lm="person"><i>person</i><par n="house__n"/></e>
+		<e lm="way"><i>way</i><par n="house__n"/></e>
+		<e lm="thing"><i>thing</i><par n="house__n"/></e>
+		<e lm="life"><i>life</i><par n="house__n"/></e>
+		<e lm="hand"><i>hand</i><par n="house__n"/></e>
+		<e lm="part"><i>part</i><par n="house__n"/></e>
+		<e lm="child"><i>child</i><par n="child__n"/></e>
+		<e lm="eye"><i>eye</i><par n="house__n"/></e>
+		<e lm="place"><i>place</i><par n="house__n"/></e>
+		<e lm="government"><i>government</i><par n="house__n"/></e>
+		<e lm="company"><i>compan</i><par n="democracy__n"/></e>
+		<e lm="number"><i>number</i><par n="house__n"/></e>
+		<e lm="group"><i>group</i><par n="house__n"/></e>
 		<e lm="work"><i>work</i><par n="house__n"/></e>
+
+		
 
 		
 
