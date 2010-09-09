@@ -22,9 +22,9 @@
       <attr-item tags="p1s"/>
       <attr-item tags="p2s"/>
       <attr-item tags="p3s"/>
-      <attr-item tagp="p1p"/>
-      <attr-item tagp="p2p"/>
-      <attr-item tagp="p3p"/>
+      <attr-item tags="p1p"/>
+      <attr-item tags="p2p"/>
+      <attr-item tags="p3p"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -38,7 +38,7 @@
     <!-- current possessor -->
   </section-def-vars>
   <section-rules>
-    <rule comment="nom">
+    <rule comment="prep nom">
       <pattern>
         <pattern-item n="prep"/>
         <pattern-item n="nom"/>
@@ -101,6 +101,10 @@
             <var n="c_case"/>
           </lu>
         </out>
+        <let>
+          <var n="c_case"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
   </section-rules>
