@@ -2,6 +2,7 @@
 <transfer>
   <section-def-cats>
     <def-cat n="num">
+      <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
     <def-cat n="poss">
@@ -15,6 +16,9 @@
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -54,6 +58,7 @@
         </out>
       </action>
     </rule>
+
     <rule comment="remove plural if num + plural">
 	<pattern>
 		<pattern-item n="num"/>
@@ -70,15 +75,21 @@
 	    </test>
 	    <let>
 	     <clip pos="2" side="tl" part="nbr"/>
-	     <lit-tag v=""/>
+	     <lit v=""/>
 	    </let>
 	   </when>
           </choose>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="a_num"/>
             <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="nbr"/>
           </lu>
         </out>
       </action>
