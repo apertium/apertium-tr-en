@@ -13,6 +13,7 @@
 	<sdef n="pl"/>
 	<sdef n="sp"/>
 	<sdef n="def"/>
+	<sdef n="num"/>
 	</sdefs>
 	<pardefs>
 
@@ -33,6 +34,7 @@
 			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
 		</pardef>	
+		
 		<pardef n="child__n">
 			<e><p><l/><r><s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>ren</l><r><s n="n"/><s n="pl"/></r></p></e>
@@ -46,10 +48,27 @@
 			<e><p><l>y</l><r>y<s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>ies</l><r>y<s n="n"/><s n="pl"/></r></p></e>
 		</pardef>
+		<pardef n="one__num">
+			<e><p><l></l><r><s n="num"/></r></p></e>
+		</pardef>
 	</pardefs>
 
 	<section id="main" type="standard">
 
+
+ <!-- Numbers -->
+		<e lm="one"><i>one</i><par n="one__num"/></e>
+		<e lm="two"><i>two</i><par n="one__num"/></e>
+		<e lm="three"><i>three</i><par n="one__num"/></e>
+		<e lm="four"><i>four</i><par n="one__num"/></e>
+		<e lm="five"><i>five</i><par n="one__num"/></e>
+		<e lm="six"><i>six</i><par n="one__num"/></e>
+		<e lm="seven"><i>seven</i><par n="one__num"/></e>
+		<e lm="eight"><i>eight</i><par n="one__num"/></e>
+		<e lm="nine"><i>nine</i><par n="one__num"/></e>
+		<e lm="zero"><i>zero</i><par n="one__num"/></e>
+
+	
  
  <!-- Conjunctions -->
 
@@ -122,6 +141,10 @@
 		<e lm="number"><i>number</i><par n="house__n"/></e>
 		<e lm="group"><i>group</i><par n="house__n"/></e>
 		<e lm="work"><i>work</i><par n="house__n"/></e>
+		<e lm="army"><i>arm</i><par n="democracy__n"/></e>
+
+
+		
 
 		
 

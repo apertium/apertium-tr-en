@@ -6,6 +6,8 @@
 
     <!-- Apertium -->
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="num"     c="Number"/>
+
 
     <!-- trmorph -->
     <sdef n="cnj"     c="Conjunction"/>
@@ -61,9 +63,22 @@
 	<e><p><l>şirket<s n="n"/></l><r>company<s n="n"/></r></p></e>
 	<e><p><l>sayı<s n="n"/></l><r>number<s n="n"/></r></p></e>	
 	<e><p><l>grup<s n="n"/></l><r>group<s n="n"/></r></p></e>	
+	<e><p><l>ordu<s n="n"/></l><r>army<s n="n"/></r></p></e>
 
+		
+	
+ <!-- Numbers -->
 
-
+	<e><p><l>bir<s n="num"/></l><r>one<s n="num"/></r></p></e>
+	<e><p><l>iki<s n="num"/></l><r>two<s n="num"/></r></p></e>
+	<e><p><l>üç<s n="num"/></l><r>three<s n="num"/></r></p></e>
+	<e><p><l>dört<s n="num"/></l><r>four<s n="num"/></r></p></e>
+	<e><p><l>beş<s n="num"/></l><r>five<s n="num"/></r></p></e>
+	<e><p><l>altı<s n="num"/></l><r>six<s n="num"/></r></p></e>
+	<e><p><l>yedi<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+	<e><p><l>sekiz<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+	<e><p><l>dokuz<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+	<e><p><l>sıfır<s n="num"/></l><r>zero<s n="num"/></r></p></e>
 
     
   </section>
