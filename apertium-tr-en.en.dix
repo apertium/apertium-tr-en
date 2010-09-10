@@ -289,6 +289,12 @@
 		<e lm="wolf"><i>wol</i><par n="wol/f__n"/></e>
 		<e lm="foot"><i>f</i><par n="f/oot__n"/></e>
 		<e lm="brother"><i>br</i><par n="br/other__n"/></e>
+		<e lm="wedding"><i>wedding</i><par n="house__n"/></e>
+		<e lm="buddy"><i>budd</i><par n="bab/y__n"/></e>
+		<e lm="marriage"><i>marriage</i><par n="house__n"/></e>
+		<e lm="church"><i>church</i><par n="fish__n"/></e>
+		
+		
 		
 		
 
