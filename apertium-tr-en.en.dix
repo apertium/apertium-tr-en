@@ -59,7 +59,7 @@
 			<e><p><l>f</l><r>f<s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>ves</l><r>f<s n="n"/><s n="pl"/></r></p></e>
 		</pardef>
-		<pardef n="democrac/y__n">
+		<pardef n="bab/y__n">
 			<e><p><l>y</l><r>y<s n="n"/><s n="sg"/></r></p></e>
 			<e><p><l>ies</l><r>y<s n="n"/><s n="pl"/></r></p></e>
 		</pardef>
@@ -227,7 +227,7 @@
 		<e lm="sea"><i>sea</i><par n="house__n"/></e>
 		<e lm="river"><i>river</i><par n="house__n"/></e>
 		<e lm="car"><i>car</i><par n="house__n"/></e>
-		<e lm="democracy"><i>democrac</i><par n="democrac/y__n"/></e>
+		<e lm="democracy"><i>democrac</i><par n="bab/y__n"/></e>
 		<e lm="day"><i>day</i><par n="house__n"/></e>
 		<e lm="world"><i>world</i><par n="house__n"/></e>
 		<e lm="year"><i>year</i><par n="house__n"/></e>
@@ -241,11 +241,11 @@
 		<e lm="eye"><i>eye</i><par n="house__n"/></e>
 		<e lm="place"><i>place</i><par n="house__n"/></e>
 		<e lm="government"><i>government</i><par n="house__n"/></e>
-		<e lm="company"><i>compan</i><par n="democrac/y__n"/></e>
+		<e lm="company"><i>compan</i><par n="bab/y__n"/></e>
 		<e lm="number"><i>number</i><par n="house__n"/></e>
 		<e lm="group"><i>group</i><par n="house__n"/></e>
 		<e lm="work"><i>work</i><par n="house__n"/></e>
-		<e lm="army"><i>arm</i><par n="democrac/y__n"/></e>
+		<e lm="army"><i>arm</i><par n="bab/y__n"/></e>
 		<e lm="telephone"><i>telephone</i><par n="house__n"/></e>
 		<e lm="bird"><i>bird</i><par n="house__n"/></e>
 		<e lm="fish"><i>fish</i><par n="fish__n"/></e>
@@ -268,18 +268,18 @@
 		<e lm="atom"><i>atom</i><par n="house__n"/></e>
 		<e lm="animal"><i>animal</i><par n="house__n"/></e>
 		<e lm="answer"><i>answer</i><par n="house__n"/></e>
-		<e lm="baby"><i>bab</i><par n="democrac/y__n"/></e>
+		<e lm="baby"><i>bab</i><par n="bab/y__n"/></e>
 		<e lm="bank"><i>bank</i><par n="house__n"/></e>
-		<e lm="body"><i>bod</i><par n="democrac/y__n"/></e>
+		<e lm="body"><i>bod</i><par n="bab/y__n"/></e>
 		<e lm="bear"><i>bear</i><par n="house__n"/></e>
 		<e lm="bone"><i>bone</i><par n="house__n"/></e>
 		<e lm="box"><i>box</i><par n="fish__n"/></e>
 		<e lm="bat"><i>bat</i><par n="house__n"/></e> <!-- animal -->
 		<e lm="bed"><i>bed</i><par n="house__n"/></e>
 		<e lm="boat"><i>boat</i><par n="house__n"/></e>
-		<e lm="city"><i>cit</i><par n="democrac/y__n"/></e>
+		<e lm="city"><i>cit</i><par n="bab/y__n"/></e>
 		<e lm="color"><i>color</i><par n="house__n"/></e>
-		<e lm="country"><i>countr</i><par n="democrac/y__n"/></e>
+		<e lm="country"><i>countr</i><par n="bab/y__n"/></e>
 		<e lm="chair"><i>chair</i><par n="house__n"/></e>
 		<e lm="coat"><i>coat</i><par n="house__n"/></e>
 		<e lm="continent"><i>continent</i><par n="house__n"/></e>
