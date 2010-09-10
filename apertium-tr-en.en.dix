@@ -158,8 +158,40 @@
 		<e lm="tree"><i>tree</i><par n="house__n"/></e>
 		<e lm="flag"><i>flag</i><par n="house__n"/></e>
 		<e lm="computer"><i>computer</i><par n="house__n"/></e>
-		<e lm="hat"><i>hat</i><par n="house__n"/></e>
+		<e lm="island"><i>island</i><par n="house__n"/></e>
+		<e lm="mountain"><i>mountain</i><par n="house__n"/></e>
+		<e lm="beach"><i>beach</i><par n="fish__n"/></e>
+		<e lm="garden"><i>garden</i><par n="house__n"/></e>
+		<e lm="street"><i>street</i><par n="house__n"/></e>
+		<e lm="supermarket"><i>supermarket</i><par n="house__n"/></e>
+		<e lm="student"><i>student</i><par n="house__n"/></e>
+		<e lm="teacher"><i>teacher</i><par n="house__n"/></e>
+		<e lm="apple"><i>apple</i><par n="house__n"/></e>
+		<e lm="arm"><i>arm</i><par n="house__n"/></e>
+		<e lm="atom"><i>atom</i><par n="house__n"/></e>
+		<e lm="animal"><i>animal</i><par n="house__n"/></e>
+		<e lm="answer"><i>answer</i><par n="house__n"/></e>
+		<e lm="baby"><i>bab</i><par n="democracy__n"/></e>
+		<e lm="bank"><i>bank</i><par n="house__n"/></e>
+		<e lm="body"><i>bod</i><par n="democracy__n"/></e>
+		<e lm="bear"><i>bear</i><par n="house__n"/></e>
+		<e lm="bone"><i>bone</i><par n="house__n"/></e>
+		<e lm="box"><i>box</i><par n="fish__n"/></e>
+		<e lm="bat"><i>bat</i><par n="house__n"/></e> <!-- animal -->
+		<e lm="bed"><i>bed</i><par n="house__n"/></e>
+		<e lm="boat"><i>boat</i><par n="house__n"/></e>
+		<e lm="city"><i>cit</i><par n="democracy__n"/></e>
+		<e lm="color"><i>color</i><par n="house__n"/></e>
+		<e lm="country"><i>countr</i><par n="democracy__n"/></e>
+		<e lm="chair"><i>chair</i><par n="house__n"/></e>
+		<e lm="coat"><i>coat</i><par n="house__n"/></e>
+		<e lm="continent"><i>continent</i><par n="house__n"/></e>
+		<e lm="cheese"><i>cheese</i><par n="house__n"/></e>
+		<e lm="tomato"><i>tomato</i><par n="fish__n"/></e>
+		
 
+
+		
 
 
 		
