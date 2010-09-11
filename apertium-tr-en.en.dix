@@ -278,7 +278,7 @@
 		<e lm="bed"><i>bed</i><par n="house__n"/></e>
 		<e lm="boat"><i>boat</i><par n="house__n"/></e>
 		<e lm="city"><i>cit</i><par n="bab/y__n"/></e>
-		<e lm="color"><i>color</i><par n="house__n"/></e>
+		<e lm="colour"><i>colour</i><par n="house__n"/></e>
 		<e lm="country"><i>countr</i><par n="bab/y__n"/></e>
 		<e lm="chair"><i>chair</i><par n="house__n"/></e>
 		<e lm="coat"><i>coat</i><par n="house__n"/></e>
