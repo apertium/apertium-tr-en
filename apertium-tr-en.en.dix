@@ -321,6 +321,13 @@
 		<e lm="screwdriver"><i>screwdriver</i><par n="house__n"/></e>
 		<e lm="glove"><i>glove</i><par n="house__n"/></e>
 		<e lm="room"><i>room</i><par n="house__n"/></e>
+		<e lm="heart"><i>heart</i><par n="house__n"/></e>
+		<e lm="hotel"><i>hotel</i><par n="house__n"/></e>
+		<e lm="taboo"><i>taboo</i><par n="house__n"/></e>
+		<e lm="skirt"><i>skirt</i><par n="house__n"/></e>
+		<e lm="flower"><i>flower</i><par n="house__n"/></e>
+		<e lm="star"><i>star</i><par n="house__n"/></e>
+		<e lm="gulf"><i>gulf</i><par n="house__n"/></e>
 		
 
 		
