@@ -310,6 +310,19 @@
 		<e lm="mosque"><i>mosque</i><par n="house__n"/></e>
 		<e lm="ablution"><i>ablution</i><par n="house__n"/></e>
 		<e lm="pillow"><i>pillow</i><par n="house__n"/></e>
+		<e lm="coup"><i>coup</i><par n="house__n"/></e>
+		<e lm="wallet"><i>wallet</i><par n="house__n"/></e>
+		<e lm="wine"><i>wine</i><par n="house__n"/></e>
+		<e lm="beer"><i>beer</i><par n="house__n"/></e>
+		<e lm="dream"><i>dream</i><par n="house__n"/></e>
+		<e lm="cable"><i>cable</i><par n="house__n"/></e>
+		<e lm="watermelon"><i>watermelon</i><par n="house__n"/></e>
+		<e lm="strawberry"><i>strawberr</i><par n="bab/y__n"/></e>
+		<e lm="screwdriver"><i>screwdriver</i><par n="house__n"/></e>
+		<e lm="glove"><i>glove</i><par n="house__n"/></e>
+		<e lm="room"><i>room</i><par n="house__n"/></e>
+		
+
 		
 		
 
