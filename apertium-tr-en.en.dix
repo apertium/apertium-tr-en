@@ -292,7 +292,24 @@
 		<e lm="wedding"><i>wedding</i><par n="house__n"/></e>
 		<e lm="buddy"><i>budd</i><par n="bab/y__n"/></e>
 		<e lm="marriage"><i>marriage</i><par n="house__n"/></e>
-		<e lm="church"><i>church</i><par n="fish__n"/></e>
+		<e lm="problem"><i>problem</i><par n="house__n"/></e>
+		<e lm="sock"><i>sock</i><par n="house__n"/></e>
+		<e lm="scissors"><i>scissors</i><par n="bass__n"/></e>
+		<e lm="jacket"><i>jacket</i><par n="house__n"/></e>
+		<e lm="sweater"><i>sweater</i><par n="house__n"/></e>
+		<e lm="arrow"><i>arrow</i><par n="house__n"/></e>
+		<e lm="page"><i>page</i><par n="house__n"/></e>
+		<e lm="homepage"><i>homepage</i><par n="house__n"/></e>
+		<e lm="ash"><i>ash</i><par n="fish__n"/></e>
+		<e lm="finger"><i>finger</i><par n="house__n"/></e>
+		<e lm="word"><i>word</i><par n="house__n"/></e>
+		<e lm="verb"><i>verb</i><par n="house__n"/></e>
+		<e lm="sentence"><i>sentence</i><par n="house__n"/></e>
+		<e lm="pillow"><i>pillow</i><par n="house__n"/></e>
+		
+
+		
+
 		
 		
 		
