@@ -305,7 +305,12 @@
 		<e lm="word"><i>word</i><par n="house__n"/></e>
 		<e lm="verb"><i>verb</i><par n="house__n"/></e>
 		<e lm="sentence"><i>sentence</i><par n="house__n"/></e>
+		<e lm="tower"><i>tower</i><par n="house__n"/></e>
+		<e lm="castle"><i>castle</i><par n="house__n"/></e>
+		<e lm="mosque"><i>mosque</i><par n="house__n"/></e>
+		<e lm="ablution"><i>ablution</i><par n="house__n"/></e>
 		<e lm="pillow"><i>pillow</i><par n="house__n"/></e>
+		
 		
 
 		
