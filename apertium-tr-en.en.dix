@@ -337,6 +337,24 @@
 		<e lm="night"><i>night</i><par n="house__n"/></e>
 		<e lm="evening"><i>evening</i><par n="house__n"/></e>
 		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="sewer"><i>sewer</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="name"><i>name</i><par n="house__n"/></e>
+		<e lm="history"><i>histor</i><par n="bab/y__n"/></e>
+		<e lm="admission"><i>admission</i><par n="house__n"/></e>
+		<e lm="period"><i>period</i><par n="house__n"/></e>
+		<e lm="duty"><i>dut</i><par n="bab/y__n"/></e>
+		<e lm="movie"><i>movie</i><par n="house__n"/></e>
+		<e lm="war"><i>war</i><par n="house__n"/></e>
+		<e lm="peace"><i>peace</i><par n="house__n"/></e>
+		<e lm="hub"><i>hub</i><par n="house__n"/></e>
+		<e lm="inhabitant"><i>inhabitant</i><par n="house__n"/></e>
+		<e lm="role"><i>role</i><par n="house__n"/></e>
+		<e lm="picture"><i>picture</i><par n="house__n"/></e>
+		<e lm="strenght"><i>strenght</i><par n="house__n"/></e>
+		
+
+
 		
 
 	
