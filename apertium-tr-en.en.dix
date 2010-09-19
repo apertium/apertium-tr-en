@@ -174,7 +174,11 @@
 
 	
  
- <!-- Conjunctions -->
+<!-- Articles -->
+		<e lm="the"><i>the</i><par n="the__det"/></e>
+		
+
+<!-- Conjunctions -->
 
 		<e lm="and"><i>and</i><par n="and__cnjcoo"/></e>
 		<e lm="or"><i>or</i><par n="and__cnjcoo"/></e>
@@ -328,7 +332,15 @@
 		<e lm="flower"><i>flower</i><par n="house__n"/></e>
 		<e lm="star"><i>star</i><par n="house__n"/></e>
 		<e lm="gulf"><i>gulf</i><par n="house__n"/></e>
+		<e lm="light"><i>light</i><par n="house__n"/></e>
+		<e lm="judge"><i>judge</i><par n="house__n"/></e>
+		<e lm="night"><i>night</i><par n="house__n"/></e>
+		<e lm="evening"><i>evening</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
 		
+
+	
+				
 
 		
 		
