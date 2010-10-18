@@ -352,6 +352,23 @@
 		<e lm="role"><i>role</i><par n="house__n"/></e>
 		<e lm="picture"><i>picture</i><par n="house__n"/></e>
 		<e lm="strenght"><i>strenght</i><par n="house__n"/></e>
+		<e lm="topic"><i>topic</i><par n="house__n"/></e>
+		<e lm="situation"><i>situation</i><par n="house__n"/></e>
+		<e lm="result"><i>result</i><par n="house__n"/></e>
+		<e lm="night"><i>night</i><par n="house__n"/></e>
+		<e lm="relationship"><i>relationship</i><par n="house__n"/></e>
+		<e lm="environment"><i>environment</i><par n="house__n"/></e>
+		<e lm="family"><i>famil</i><par n="bab/y__n"/></e>
+		<e lm="decision"><i>decision</i><par n="house__n"/></e>
+		<e lm="group"><i>group</i><par n="house__n"/></e>
+		<e lm="heel"><i>heel</i><par n="house__n"/></e>
+		<e lm="son"><i>son</i><par n="house__n"/></e>
+		<e lm="mouth"><i>mouth</i><par n="house__n"/></e>
+		<e lm="team"><i>team</i><par n="house__n"/></e>
+		<e lm="morning"><i>morning</i><par n="house__n"/></e>
+		<e lm="smell"><i>smell</i><par n="house__n"/></e>
+		
+
 		
 
 
